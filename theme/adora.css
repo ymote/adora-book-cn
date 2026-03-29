@@ -1,0 +1,366 @@
+/* Adora Documentation Theme — Carbon Steel Palette
+   Teal Accent:     #00D4AA / #00A882  (primary accent, active links)
+   Amber Title:     #FFB84D / #D49A30  (highlights, search marks)
+   Indigo:          #4A4AFF / #3535CC  (sidebar bg dark)
+   Carbon Dark:     #0A0A0F / #12121A  (dark theme bg)
+*/
+
+/* ============ Light Theme (Adora Light) ============ */
+.light, html:not(.js) {
+  --bg: #F5F5FA;
+  --fg: #1A1A2E;
+  --sidebar-bg: #1C1C28;
+  --sidebar-fg: #B0B0CC;
+  --sidebar-active: #00D4AA;
+  --sidebar-non-existant: #5A5A7A;
+  --sidebar-spacer: #35354D;
+  --links: #009977;
+  --inline-code-color: #CC8800;
+  --theme-popup-bg: #EAEAF2;
+  --theme-popup-border: #CCCCDD;
+  --theme-hover: #E0E0EE;
+  --quote-bg: #EAEAF2;
+  --quote-border: #00D4AA;
+  --table-border-color: #CCCCDD;
+  --table-header-bg: #1C1C28;
+  --table-alternate-bg: #F5F5FA;
+  --searchbar-border-color: #CCCCDD;
+  --searchbar-bg: #FFFFFF;
+  --searchbar-fg: #1A1A2E;
+  --searchbar-shadow-color: rgba(0, 212, 170, 0.1);
+  --searchresults-border-color: #CCCCDD;
+  --searchresults-li-bg: #EAEAF2;
+  --search-mark-bg: #FFB84D;
+  --color-scheme: light;
+}
+
+/* ============ Dark Theme (Adora Dark) — ayu, navy, coal ============ */
+html.ayu, html.navy, html.coal, .ayu, .navy, .coal {
+  --bg: #0A0A0F;
+  --fg: #E8E8F0;
+  --sidebar-bg: #12121A;
+  --sidebar-fg: #8888AA;
+  --sidebar-active: #00D4AA;
+  --sidebar-non-existant: #5A5A7A;
+  --sidebar-spacer: #26263A;
+  --links: #00D4AA;
+  --inline-code-color: #FFB84D;
+  --theme-popup-bg: #1C1C28;
+  --theme-popup-border: #35354D;
+  --theme-hover: #26263A;
+  --quote-bg: #1C1C28;
+  --quote-border: #00D4AA;
+  --table-border-color: #35354D;
+  --table-header-bg: #12121A;
+  --table-alternate-bg: #1C1C28;
+  --searchbar-border-color: #35354D;
+  --searchbar-bg: #1C1C28;
+  --searchbar-fg: #E8E8F0;
+  --searchbar-shadow-color: rgba(0, 0, 0, 0.3);
+  --searchresults-border-color: #35354D;
+  --searchresults-li-bg: #1C1C28;
+  --search-mark-bg: #FFB84D;
+  --color-scheme: dark;
+}
+
+/* ============ Rust Theme (warm light) ============ */
+html.rust, .rust {
+  --bg: #FDF6E3;
+  --fg: #262220;
+  --sidebar-bg: #3B2E2A;
+  --sidebar-fg: #C4A882;
+  --sidebar-active: #00A882;
+  --sidebar-non-existant: #7A6A5A;
+  --sidebar-spacer: #5A4A3A;
+  --links: #009977;
+  --inline-code-color: #CC8800;
+  --theme-popup-bg: #FBF0D9;
+  --theme-popup-border: #E8D5B0;
+  --theme-hover: #F5EAD0;
+  --quote-bg: #FBF0D9;
+  --quote-border: #00A882;
+  --table-border-color: #E8D5B0;
+  --table-header-bg: #3B2E2A;
+  --table-alternate-bg: #FBF0D9;
+  --searchbar-border-color: #E8D5B0;
+  --searchbar-bg: #FFFFFF;
+  --searchbar-fg: #262220;
+  --searchbar-shadow-color: rgba(0, 168, 130, 0.1);
+  --searchresults-border-color: #E8D5B0;
+  --searchresults-li-bg: #FBF0D9;
+  --search-mark-bg: #FFB84D;
+  --color-scheme: light;
+}
+
+/* ============ Typography ============ */
+:root {
+  --content-max-width: 860px;
+}
+
+body {
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  font-size: 17px;
+}
+
+code, pre code {
+  font-family: 'JetBrains Mono', 'Fira Code', monospace;
+  font-size: 0.88em;
+}
+
+.content main {
+  max-width: var(--content-max-width);
+}
+
+/* ============ Sidebar ============ */
+.sidebar {
+  font-size: 0.92em;
+}
+
+.sidebar .sidebar-scrollbox {
+  padding: 10px 20px;
+}
+
+.sidebar ol.chapter li.chapter-item a {
+  color: var(--sidebar-fg);
+  padding: 5px 0;
+  transition: color 0.15s ease;
+}
+
+.sidebar ol.chapter li.chapter-item a:hover {
+  color: #FFFFFF;
+}
+
+.sidebar ol.chapter li.chapter-item a.active {
+  color: var(--sidebar-active);
+  font-weight: 600;
+}
+
+/* Sidebar part titles */
+.sidebar .chapter li.part-title {
+  color: #FFB84D;
+  font-weight: 700;
+  font-size: 0.82em;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  padding: 16px 0 4px;
+  border-top: 1px solid var(--sidebar-spacer);
+  margin-top: 8px;
+}
+
+.sidebar .chapter li.part-title:first-child {
+  border-top: none;
+  margin-top: 0;
+}
+
+/* ============ Content ============ */
+.content h1 {
+  color: #FFB84D;
+  border-bottom: 3px solid #00D4AA;
+  padding-bottom: 8px;
+}
+
+.content h2 {
+  color: #00D4AA;
+  border-bottom: 1px solid #35354D;
+  padding-bottom: 4px;
+}
+
+.content h3 {
+  color: #00D4AA;
+}
+
+html.light .content h1, html:not(.js) .content h1 {
+  color: #1A1A2E;
+  border-bottom-color: #00D4AA;
+}
+
+html.light .content h2, html:not(.js) .content h2 {
+  color: #009977;
+  border-bottom-color: #CCCCDD;
+}
+
+html.light .content h3, html:not(.js) .content h3 {
+  color: #009977;
+}
+
+html.rust .content h1 {
+  color: #262220;
+  border-bottom-color: #00A882;
+}
+
+html.rust .content h2 {
+  color: #009977;
+  border-bottom-color: #E8D5B0;
+}
+
+html.rust .content h3 {
+  color: #009977;
+}
+
+html.rust .content pre {
+  background: #3B2E2A;
+  color: #E8D5B0;
+}
+
+html.rust .content code:not(pre code) {
+  background: #FBF0D9;
+  color: #CC8800;
+}
+
+/* Links */
+.content a {
+  color: var(--links);
+  text-decoration: none;
+  border-bottom: 1px solid transparent;
+  transition: border-color 0.15s ease, color 0.15s ease;
+}
+
+.content a:hover {
+  color: #FFB84D;
+  border-bottom-color: #FFB84D;
+}
+
+/* ============ Code blocks ============ */
+.content pre {
+  border-radius: 8px;
+  border: 1px solid var(--table-border-color);
+  padding: 16px;
+}
+
+html.light .content pre, html:not(.js) .content pre {
+  background: #1C1C28;
+  color: #E8E8F0;
+}
+
+.content code:not(pre code) {
+  padding: 2px 6px;
+  border-radius: 4px;
+  font-size: 0.88em;
+}
+
+html.light .content code:not(pre code), html:not(.js) .content code:not(pre code) {
+  background: #EAEAF2;
+  color: #CC8800;
+}
+
+/* ============ Tables ============ */
+.content table {
+  border-collapse: collapse;
+  width: 100%;
+  border-radius: 8px;
+  overflow: hidden;
+  font-size: 0.92em;
+}
+
+.content table th {
+  background: var(--table-header-bg);
+  color: #FFFFFF;
+  font-weight: 600;
+  padding: 10px 14px;
+  text-align: left;
+}
+
+html.light .content table th, html:not(.js) .content table th {
+  color: #F5F5FA;
+}
+
+.content table td {
+  padding: 8px 14px;
+  border-bottom: 1px solid var(--table-border-color);
+}
+
+.content table tr:nth-child(even) {
+  background: var(--table-alternate-bg);
+}
+
+/* ============ Blockquotes ============ */
+.content blockquote {
+  border-left: 4px solid #00D4AA;
+  background: var(--quote-bg);
+  padding: 12px 16px;
+  border-radius: 0 8px 8px 0;
+  margin: 16px 0;
+}
+
+/* ============ Navigation buttons ============ */
+.nav-chapters {
+  font-size: 0.9em;
+  transition: color 0.15s ease;
+}
+
+.nav-chapters:hover {
+  color: #FFB84D;
+}
+
+/* ============ Scrollbar (webkit) ============ */
+.sidebar::-webkit-scrollbar {
+  width: 6px;
+}
+
+.sidebar::-webkit-scrollbar-thumb {
+  background: #35354D;
+  border-radius: 3px;
+}
+
+.sidebar::-webkit-scrollbar-thumb:hover {
+  background: #00D4AA;
+}
+
+/* ============ Top menu bar ============ */
+.menu-bar {
+  border-bottom: 1px solid var(--table-border-color);
+}
+
+html.light .menu-bar, html:not(.js) .menu-bar {
+  background: #FFFFFF;
+}
+
+/* ============ Search ============ */
+#searchbar {
+  border-radius: 8px;
+  padding: 8px 12px;
+}
+
+/* ============ Rename theme options ============ */
+#mdbook-theme-light {
+  font-size: 0 !important;
+}
+#mdbook-theme-light::after {
+  content: "Adora Light";
+  font-size: 14px;
+}
+#mdbook-theme-ayu {
+  font-size: 0 !important;
+}
+#mdbook-theme-ayu::after {
+  content: "Adora Dark";
+  font-size: 14px;
+}
+#mdbook-theme-rust {
+  font-size: 0 !important;
+}
+#mdbook-theme-rust::after {
+  content: "Rust";
+  font-size: 14px;
+}
+#mdbook-theme-coal {
+  font-size: 0 !important;
+}
+#mdbook-theme-coal::after {
+  content: "Coal";
+  font-size: 14px;
+}
+#mdbook-theme-navy {
+  font-size: 0 !important;
+}
+#mdbook-theme-navy::after {
+  content: "Navy";
+  font-size: 14px;
+}
+
+/* ============ Mobile ============ */
+@media (max-width: 1080px) {
+  .content main {
+    padding: 16px;
+  }
+}

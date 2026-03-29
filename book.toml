@@ -1,0 +1,16 @@
+[book]
+title = "Adora 手册"
+authors = ["Adora Contributors"]
+language = "zh"
+src = "src"
+
+[build]
+build-dir = "book"
+
+[output.html]
+default-theme = "ayu"
+preferred-dark-theme = "ayu"
+git-repository-url = "https://github.com/ymote/adora-book-cn"
+edit-url-template = "https://github.com/ymote/adora-book-cn/edit/main/src/{path}"
+site-url = "/adora-book-cn/"
+additional-css = ["theme/adora.css"]
