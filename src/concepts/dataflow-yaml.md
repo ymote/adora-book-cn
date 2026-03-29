@@ -1,4 +1,4 @@
-> **[English](../../concepts/dataflow-yaml.md)**
+> 🌐 **[English](https://ymote.github.io/adora-book/concepts/dataflow-yaml.html)**
 
 # 数据流 YAML 规范
 

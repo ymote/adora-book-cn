@@ -1,4 +1,4 @@
-> 🌐 **[English](../../operations/fault-tolerance.md)**
+> 🌐 **[English](https://ymote.github.io/adora-book/operations/fault-tolerance.html)**
 
 # 容错机制
 

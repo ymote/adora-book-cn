@@ -1,4 +1,4 @@
-> **[English](../../concepts/modules.md)**
+> 🌐 **[English](https://ymote.github.io/adora-book/concepts/modules.html)**
 
 # 模块（可复用子数据流）
 

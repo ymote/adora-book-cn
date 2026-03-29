@@ -1,4 +1,4 @@
-> **[English](../../languages/c.md)**
+> 🌐 **[English](https://ymote.github.io/adora-book/languages/c.html)**
 
 # C API 参考
 

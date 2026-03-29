@@ -1,4 +1,4 @@
-> 🌐 **[English](../../advanced/ws-topic.md)**
+> 🌐 **[English](https://ymote.github.io/adora-book/advanced/ws-topic.html)**
 
 # WebSocket 主题数据通道
 

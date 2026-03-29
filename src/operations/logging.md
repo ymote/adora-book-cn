@@ -1,4 +1,4 @@
-> 🌐 **[English](../../operations/logging.md)**
+> 🌐 **[English](https://ymote.github.io/adora-book/operations/logging.html)**
 
 # 日志
 

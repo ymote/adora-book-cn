@@ -1,4 +1,4 @@
-> **[English](../../languages/python.md)**
+> 🌐 **[English](https://ymote.github.io/adora-book/languages/python.html)**
 
 # Python API 参考
 

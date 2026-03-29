@@ -1,4 +1,4 @@
-> 🌐 **[English](../../operations/performance.md)**
+> 🌐 **[English](https://ymote.github.io/adora-book/operations/performance.html)**
 
 # 性能
 

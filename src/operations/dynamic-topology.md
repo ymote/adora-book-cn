@@ -1,4 +1,4 @@
-> **[English](../../operations/dynamic-topology.md)**
+> 🌐 **[English](https://ymote.github.io/adora-book/operations/dynamic-topology.html)**
 
 # 动态拓扑
 

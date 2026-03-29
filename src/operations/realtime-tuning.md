@@ -1,4 +1,4 @@
-> **[English](../../operations/realtime-tuning.md)**
+> 🌐 **[English](https://ymote.github.io/adora-book/operations/realtime-tuning.html)**
 
 # 实时调优
 

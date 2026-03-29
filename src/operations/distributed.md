@@ -1,4 +1,4 @@
-> 🌐 **[English](../../operations/distributed.md)**
+> 🌐 **[English](https://ymote.github.io/adora-book/operations/distributed.html)**
 
 # 分布式部署指南
 

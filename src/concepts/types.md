@@ -1,4 +1,4 @@
-> **[English](../../concepts/types.md)**
+> 🌐 **[English](https://ymote.github.io/adora-book/concepts/types.html)**
 
 # 类型注解
 

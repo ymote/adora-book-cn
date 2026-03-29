@@ -1,4 +1,4 @@
-> **[English](../../languages/cpp.md)**
+> 🌐 **[English](https://ymote.github.io/adora-book/languages/cpp.html)**
 
 # C++ API 参考
 

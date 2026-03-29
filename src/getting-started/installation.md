@@ -1,4 +1,4 @@
-> **[English](../../getting-started/installation.md)**
+> 🌐 **[English](https://ymote.github.io/adora-book/getting-started/installation.html)**
 
 # 安装
 

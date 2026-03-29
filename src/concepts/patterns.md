@@ -1,4 +1,4 @@
-> **[English](../../concepts/patterns.md)**
+> 🌐 **[English](https://ymote.github.io/adora-book/concepts/patterns.html)**
 
 # 通信模式
 

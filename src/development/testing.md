@@ -1,4 +1,4 @@
-> 🌐 **[English](../../development/testing.md)**
+> 🌐 **[English](https://ymote.github.io/adora-book/development/testing.html)**
 
 # Adora 测试指南
 

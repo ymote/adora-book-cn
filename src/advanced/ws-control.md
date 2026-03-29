@@ -1,4 +1,4 @@
-> 🌐 **[English](../../advanced/ws-control.md)**
+> 🌐 **[English](https://ymote.github.io/adora-book/advanced/ws-control.html)**
 
 # WebSocket 控制平面
 

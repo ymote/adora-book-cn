@@ -1,4 +1,4 @@
-> **[English](../../languages/rust.md)**
+> 🌐 **[English](https://ymote.github.io/adora-book/languages/rust.html)**
 
 # Rust API 参考
 

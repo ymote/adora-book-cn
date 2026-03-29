@@ -1,4 +1,4 @@
-> **[English](../../getting-started/quickstart.md)**
+> 🌐 **[English](https://ymote.github.io/adora-book/getting-started/quickstart.html)**
 
 # Python 快速入门
 

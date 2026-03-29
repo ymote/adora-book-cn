@@ -1,4 +1,4 @@
-> 🌐 **[English](../../operations/debugging.md)**
+> 🌐 **[English](https://ymote.github.io/adora-book/operations/debugging.html)**
 
 # 调试与可观测性指南
 

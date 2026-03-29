@@ -1,4 +1,4 @@
-> **[English](../../concepts/architecture.md)**
+> 🌐 **[English](https://ymote.github.io/adora-book/concepts/architecture.html)**
 
 # Adora 架构
 

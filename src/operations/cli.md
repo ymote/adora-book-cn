@@ -1,4 +1,4 @@
-> 🌐 **[English](../../operations/cli.md)**
+> 🌐 **[English](https://ymote.github.io/adora-book/operations/cli.html)**
 
 # Adora CLI 参考
 
